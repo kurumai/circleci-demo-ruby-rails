@@ -3,7 +3,7 @@ version: 2
 
 jobs:
   build:
-    parallelism: 3
+    parallelism: 25
     docker:
       - image: circleci/ruby:2.4.2-jessie-node
         environment:
